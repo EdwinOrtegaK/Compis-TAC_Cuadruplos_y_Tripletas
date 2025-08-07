@@ -1,10 +1,10 @@
 // Función original
-function calculate(x: number, y: number, z: number): number {
+export function calculate(x: number, y: number, z: number): number {
   return x * z + y * z - (z + y);
 }
 
 // Función equivalente usando TAC (Código de Tres Direcciones)
-function calculateTAC(x: number, y: number, z: number): number {
+export function calculateTAC(x: number, y: number, z: number): number {
   const t1 = x * z;
   const t2 = y * z;
   const t3 = t1 + t2;
