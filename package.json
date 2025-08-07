@@ -1,0 +1,14 @@
+{
+  "name": "compis-tac-cuadruplos-y-tripletas",
+  "version": "1.0.0",
+  "description": "Ejercicio de TAC, cuádruplos y trípletas",
+  "main": "dist/calculate.js",
+  "scripts": {
+    "build": "tsc",
+    "test": "node dist/test.js"
+  },
+  "author": "Edwin Ortega, Esteban Zambrano",
+  "devDependencies": {
+    "typescript": "^5.9.2"
+  }
+}
